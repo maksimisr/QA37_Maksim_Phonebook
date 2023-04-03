@@ -37,15 +37,9 @@ public class HelperUser extends HelperBase{
     }
 
     public void fillLoginRegistrationForm(User user){
-        //  WebElement emailInput= wd.findElement(By.name("email"));
-        // emailInput.click();
-        //  emailInput.clear();
-        //  emailInput.sendKeys(email);
-        type(By.name("email"), user.getEmail());
-        //  WebElement passwordInput= wd.findElement(By.xpath("//input[last()]"));
-        // passwordInput.click();
-        // passwordInput.clear();
-        // emailInput.sendKeys(password);
+
+        type(By.xpath("//input[@name='email']"), user.getEmail());
+
         type(By.xpath("//input[last()]"), user.getPassword());
     }
     public void submitLogin(){
@@ -57,6 +51,7 @@ public class HelperUser extends HelperBase{
         click(By.cssSelector("button[name='registration']"));
     }
     public boolean isLogged(){
+        pause(2000);
         return isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
 
@@ -88,5 +83,11 @@ public class HelperUser extends HelperBase{
         WebDriverWait wait = new WebDriverWait(wd,Duration.ofSeconds(5));
       boolean res = wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message"))," No contacts here"));
         return res;
+    }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
     }
 }

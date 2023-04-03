@@ -16,7 +16,7 @@ public class LoginTests extends TestBase{
     }
     @Test
     public void loginSuccess(){
-        User user = new User().setPassword("maks-skam@mail.ru").setPassword("Maksim1996$");
+        User user = new User().setPassword("maksim@gmail.com").setPassword("Maksim1996$");
        app.getHelperUser().openLoginRegistrationForm();
        app.getHelperUser().fillLoginRegistrationForm(user);
        app.getHelperUser().submitLogin();
