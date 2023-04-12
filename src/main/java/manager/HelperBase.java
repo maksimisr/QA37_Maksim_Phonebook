@@ -1,9 +1,13 @@
 package manager;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class HelperBase {
@@ -39,4 +43,32 @@ public class HelperBase {
             throw new RuntimeException(e);
         }
     }
+
+    public boolean isNoContactHereDisplayed(){
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        boolean res = wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message"))," No contacts here"));
+        return res;
+    }
+
+    public boolean isAlertPresent(String message) {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        Alert alert= wait.until(ExpectedConditions.alertIsPresent());
+
+        if(alert !=null && alert.getText().contains(message)){
+            System.out.println(alert.getText());
+
+            alert.accept();
+
+            // alert.dismiss();
+            //if it "cancel" button
+
+            //alert.sendKeys("hello");
+            // if needed to write something
+            return true;
+
+        }
+        return false;
+    }
+
+
 }

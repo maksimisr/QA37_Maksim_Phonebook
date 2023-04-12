@@ -12,6 +12,8 @@ public class ApplicationManager {
 
     HelperAddContact helperAddContact;
 
+    HelperRemoveContact helperRemoveContact;
+
     public void init(){
         ChromeOptions options= new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
@@ -21,6 +23,7 @@ public class ApplicationManager {
         wd.navigate().to("https://telranedu.web.app/login");
         helperUser= new HelperUser(wd);
         helperAddContact= new HelperAddContact(wd);
+        helperRemoveContact= new HelperRemoveContact(wd);
 
 
 
@@ -31,6 +34,8 @@ public class ApplicationManager {
     }
 
     public HelperAddContact getHelperAddContact(){ return helperAddContact;}
+
+    public HelperRemoveContact getHelperRemoveContact(){return helperRemoveContact;}
 
     public void stop(){
     wd.quit();

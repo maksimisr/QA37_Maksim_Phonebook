@@ -4,7 +4,10 @@ import models.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class HelperAddContact extends HelperBase {
@@ -14,7 +17,7 @@ public class HelperAddContact extends HelperBase {
     }
 
     public void openContactForm(){
-click(By.xpath("//a[@href='/add']"));
+        click(By.xpath("//a[@href='/add']"));
     }
 
     public void fillAdditionFrom(Contact contact){
@@ -54,4 +57,11 @@ click(By.xpath("//a[@href='/add']"));
     }
 
 
+    public boolean isAddPageStillDisplayed() {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        boolean res = wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.xpath("//a[@style='border: 1px solid black; background-color: black; color: white;']")),"ADD"));
+        return res;
+
+    }
 }
+
