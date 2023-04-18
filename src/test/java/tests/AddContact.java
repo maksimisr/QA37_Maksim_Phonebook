@@ -24,16 +24,17 @@ if(!app.getHelperUser().isLogged()){
     public void additionSuccessAllFields(){
         Random random = new Random();
         int i= random.nextInt(1000);
-        //String s= random.toString();
+
         Contact contact = Contact.builder().
                 name("Maksim").lastName("Galileo").
                 phone("123884"+i+"128835").
                 email("galileo199"+i+"@gmail.com").
                 address("NY").
-                description("Friend")
+                description("SuccessAllFields")
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
+        app.getHelperAddContact().pause(15000);
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isContactAddedByName(contact.getName()));
        Assert.assertTrue(app.getHelperAddContact().isContactAddedByPhone(contact.getPhone()));
@@ -44,7 +45,7 @@ if(!app.getHelperUser().isLogged()){
         Random random = new Random();
         int i= random.nextInt(1000);
         Contact contact = Contact.builder().
-                name("Galiley").lastName("Galileo").
+                name("GalileyRequiredFields").lastName("Galileo").
                 phone("123884"+i+"128835").
                 email("galileo199"+i+"@gmail.com").
                 address("NY").
@@ -52,6 +53,8 @@ if(!app.getHelperUser().isLogged()){
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
+        app.getHelperAddContact().pause(15000);
+       // app.getHelperAddContact().getScreen("src/test/screenshots/screen-btn.png");
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.getHelperAddContact().isContactAddedByPhone(contact.getPhone()));
@@ -66,10 +69,11 @@ if(!app.getHelperUser().isLogged()){
                 phone("123884"+i+"128835").
                 email("galileo199"+i+"@gmail.com").
                 address("").
-                description("Friend")
+                description("WrongAddress")
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
+        app.getHelperAddContact().pause(15000);
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
     }
@@ -79,17 +83,17 @@ if(!app.getHelperUser().isLogged()){
 
         Random random = new Random();
         int i= random.nextInt(1000);
-    //String s= random.toString();
 
     Contact contact = Contact.builder().
             name("Maksim").lastName("Galileo").
             phone("123884"+i+"128835").
             email("galileo199"+i+"gmail.com").
             address("NY").
-            description("Friend")
+            description("WrongEmail")
             .build();
     app.getHelperAddContact().openContactForm();
     app.getHelperAddContact().fillAdditionFrom(contact);
+    app.getHelperAddContact().pause(15000);
     app.getHelperAddContact().submitNewContact();
     Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
     Assert.assertTrue(app.getHelperUser().isAlertPresent("Email not valid: must be a well-formed email address"));
@@ -104,10 +108,12 @@ if(!app.getHelperUser().isLogged()){
                 phone("123884"+i+"128835").
                 email("galileo199"+i+"@gmail.com").
                 address("NY").
-                description("Friend")
+                description("WrongLastName")
                 .build();
         app.getHelperAddContact().openContactForm();
+
         app.getHelperAddContact().fillAdditionFrom(contact);
+        app.getHelperAddContact().pause(15000);
         app.getHelperAddContact().submitNewContact();
         // Assert.assertTrue(app.getHelperAddContact().isElementPresent());
     }
@@ -121,10 +127,11 @@ if(!app.getHelperUser().isLogged()){
                 phone("123884"+i+"1288535").
                 email("galileo"+i+"@gmail.com").
                 address("NY").
-                description("Friend")
+                description("WrongName")
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
+        app.getHelperAddContact().pause(15000);
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
     }
@@ -138,28 +145,16 @@ if(!app.getHelperUser().isLogged()){
                 phone("123884").
                 email("galileo199"+i+"@gmail.com").
                 address("NY").
-                description("Friend")
+                description("WrongPhone")
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
+        app.getHelperAddContact().pause(15000);
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
         Assert.assertTrue(app.getHelperUser().isAlertPresent(" Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
-      //  Assert.assertTrue(app.getHelperAddContact().isNoContactHereDisplayed());
-     ///   Assert.assertTrue(app.getHelperAddContact().isAlertPresent("ZAPOLNI !!!!!"));
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

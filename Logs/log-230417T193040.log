@@ -1,0 +1,23 @@
+19:30:44.019  INFO  manager.ApplicationManager - All tests run in Chrome driver
+19:30:46.492  INFO  manager.ApplicationManager - The link ---> https://telranedu.web.app/login
+19:30:46.533  INFO  tests.TestBase - Name of method -->loginSuccessModel
+19:30:48.542  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:30:53.584  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Sign Out']
+19:30:53.584  INFO  manager.ListenerWD - List of elements--->0
+19:30:53.586  INFO  tests.TestBase - Start test with name 'loginSuccessModel' 
+19:30:53.587  INFO  tests.TestBase - TEst data--->  email: 'maks-skam@mail.ru' & password: 'Maksim1996$' 
+19:30:53.587  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[text()='LOGIN']
+19:30:53.616  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[text()='LOGIN']
+19:30:53.629  INFO  manager.ListenerWD - Location of element (1425, 33)
+19:30:53.716  INFO  manager.ListenerWD - before Find Element----> By.name: email
+19:30:53.747  INFO  manager.ListenerWD - After Find Element----> By.name: email
+19:30:53.758  INFO  manager.ListenerWD - Location of element (568, 250)
+19:30:53.962  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[last()]
+19:30:53.992  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[last()]
+19:30:54.003  INFO  manager.ListenerWD - Location of element (568, 320)
+19:30:54.179  INFO  manager.ListenerWD - before Find Element----> By.xpath: //button[text()='Login']
+19:30:54.204  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Login']
+19:30:54.219  INFO  manager.ListenerWD - Location of element (568, 390)
+19:30:56.260  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:30:56.278  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Sign Out']
+19:30:56.279  INFO  manager.ListenerWD - List of elements--->1

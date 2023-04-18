@@ -1,0 +1,24 @@
+19:55:53.053  INFO  manager.ApplicationManager - All tests run in Chrome driver
+19:55:55.325  INFO  manager.ApplicationManager - The link ---> https://telranedu.web.app/login
+19:55:55.365  INFO  tests.TestBase - Name of method -->loginSuccessModel
+19:55:57.380  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:56:02.451  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Sign Out']
+19:56:02.451  INFO  manager.ListenerWD - List of elements--->0
+19:56:02.453  INFO  tests.TestBase - Start test with name 'loginSuccessModel' 
+19:56:02.453  INFO  tests.TestBase - TEst data--->  email: 'maks-skam@mail.ru' & password: 'Maksim1996$' 
+19:56:02.454  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[text()='LOGIN']
+19:56:02.482  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[text()='LOGIN']
+19:56:02.493  INFO  manager.ListenerWD - Location of element (1425, 33)
+19:56:02.564  INFO  manager.ListenerWD - before Find Element----> By.name: email
+19:56:02.592  INFO  manager.ListenerWD - After Find Element----> By.name: email
+19:56:02.603  INFO  manager.ListenerWD - Location of element (568, 250)
+19:56:02.814  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[lastSBZsVD()]
+19:56:02.842  INFO  manager.ListenerWD - Huston, we have a problem!
+19:56:02.842  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (a35d1d4641cbb3749dd8a3ba63f0562a)
+19:56:02.843  INFO  manager.ListenerWD - ********
+19:56:02.843  INFO  manager.ListenerWD - findElement
+19:56:02.843  INFO  manager.ListenerWD - ********
+19:56:02.843  INFO  manager.ListenerWD - ********
+19:56:02.843  INFO  manager.ListenerWD - ********
+19:56:02.844  INFO  manager.ListenerWD - InvocationTargetException3java.lang.reflect.InvocationTargetException
+19:56:02.844  INFO  manager.ListenerWD - ********

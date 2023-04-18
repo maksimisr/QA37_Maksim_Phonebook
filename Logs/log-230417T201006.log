@@ -1,0 +1,33 @@
+20:10:10.403  INFO  manager.ApplicationManager - All tests run in Chrome driver
+20:10:13.073  INFO  manager.ApplicationManager - The link ---> https://telranedu.web.app/login
+20:10:13.114  INFO  tests.TestBase - Name of method -->loginSuccessModel
+20:10:15.124  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+20:10:20.154  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Sign Out']
+20:10:20.154  INFO  manager.ListenerWD - List of elements--->0
+20:10:20.156  INFO  tests.TestBase - Start test with name 'loginSuccessModel' 
+20:10:20.156  INFO  tests.TestBase - TEst data--->  email: 'maks-skam@mail.ru' & password: 'Maksim1996$' 
+20:10:20.156  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[text()='LOGIN']
+20:10:20.186  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[text()='LOGIN']
+20:10:20.201  INFO  manager.ListenerWD - Location of element (1425, 33)
+20:10:20.272  INFO  manager.ListenerWD - before Find Element----> By.name: email
+20:10:20.300  INFO  manager.ListenerWD - After Find Element----> By.name: email
+20:10:20.312  INFO  manager.ListenerWD - Location of element (568, 250)
+20:10:20.525  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[lastSBZsVD()]
+20:10:20.553  INFO  manager.ListenerWD - Huston, we have a problem!
+20:10:20.554  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (9114481c9adec8aaaa2ad880770f5c7c)
+20:10:20.554  INFO  manager.ListenerWD - ********
+20:10:20.554  INFO  manager.ListenerWD - findElement
+20:10:20.554  INFO  manager.ListenerWD - ********
+20:10:20.554  INFO  manager.ListenerWD - ********
+20:10:20.554  INFO  manager.ListenerWD - ********
+20:10:20.556  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[lastSBZsVD()] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[lastSBZsVD()]' is not a valid XPath expression.
+  (Session info: chrome=112.0.5615.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9114481c9adec8aaaa2ad880770f5c7c, findElement {using=xpath, value=//input[lastSBZsVD()]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60297/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9114481c9adec8aaaa2ad880770f5c7c
+20:10:20.557  INFO  manager.ListenerWD - ********
