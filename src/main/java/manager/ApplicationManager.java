@@ -3,6 +3,8 @@ package manager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 import org.slf4j.ILoggerFactory;
@@ -21,13 +23,23 @@ public class ApplicationManager {
 
     HelperAddContact helperAddContact;
 
+    String browser;
 
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void init(){
-        ChromeOptions options= new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        wd= new ChromeDriver(options);
-        logger.info("All tests run in Chrome driver");
+        if(browser.equals(Browser.CHROME.browserName())) {
+
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--remote-allow-origins=*");
+            wd = new ChromeDriver(options);
+            logger.info("All tests run in Chrome driver");
+        } else if (browser.equals(Browser.FIREFOX.browserName())) {
+            wd= new FirefoxDriver();
+        }
+
         WebDriverListener listener= new ListenerWD();
         wd=new EventFiringDecorator<>(listener).decorate(wd);
 

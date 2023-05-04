@@ -1,6 +1,7 @@
 package tests;
 
 
+import manager.DataProviderContact;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -12,7 +13,7 @@ import java.util.Random;
 public class AddContact extends TestBase {
 
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition(){
 
 if(!app.getHelperUser().isLogged()){
@@ -20,27 +21,21 @@ if(!app.getHelperUser().isLogged()){
 }
     }
 
-    @Test
-    public void additionSuccessAllFields(){
+    @Test(dataProvider = "contactCVS", dataProviderClass = DataProviderContact.class)
+    public void additionSuccessAllFields(Contact contact){
         Random random = new Random();
         int i= random.nextInt(1000);
 
-        Contact contact = Contact.builder().
-                name("Maksim").lastName("Galileo").
-                phone("123884"+i+"128835").
-                email("galileo199"+i+"@gmail.com").
-                address("NY").
-                description("SuccessAllFields")
-                .build();
+
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
-        app.getHelperAddContact().pause(15000);
+
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isContactAddedByName(contact.getName()));
        Assert.assertTrue(app.getHelperAddContact().isContactAddedByPhone(contact.getPhone()));
 
     }
-    @Test
+    @Test(groups ={"smoke", "regress" })
     public void successRequiredFields(){
         Random random = new Random();
         int i= random.nextInt(1000);
@@ -53,7 +48,7 @@ if(!app.getHelperUser().isLogged()){
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
-        app.getHelperAddContact().pause(15000);
+
        // app.getHelperAddContact().getScreen("src/test/screenshots/screen-btn.png");
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isContactAddedByName(contact.getName()));
@@ -73,7 +68,7 @@ if(!app.getHelperUser().isLogged()){
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
-        app.getHelperAddContact().pause(15000);
+
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
     }
@@ -93,7 +88,7 @@ if(!app.getHelperUser().isLogged()){
             .build();
     app.getHelperAddContact().openContactForm();
     app.getHelperAddContact().fillAdditionFrom(contact);
-    app.getHelperAddContact().pause(15000);
+
     app.getHelperAddContact().submitNewContact();
     Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
     Assert.assertTrue(app.getHelperUser().isAlertPresent("Email not valid: must be a well-formed email address"));
@@ -113,7 +108,7 @@ if(!app.getHelperUser().isLogged()){
         app.getHelperAddContact().openContactForm();
 
         app.getHelperAddContact().fillAdditionFrom(contact);
-        app.getHelperAddContact().pause(15000);
+
         app.getHelperAddContact().submitNewContact();
         // Assert.assertTrue(app.getHelperAddContact().isElementPresent());
     }
@@ -131,7 +126,7 @@ if(!app.getHelperUser().isLogged()){
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
-        app.getHelperAddContact().pause(15000);
+
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
     }
@@ -149,7 +144,7 @@ if(!app.getHelperUser().isLogged()){
                 .build();
         app.getHelperAddContact().openContactForm();
         app.getHelperAddContact().fillAdditionFrom(contact);
-        app.getHelperAddContact().pause(15000);
+
         app.getHelperAddContact().submitNewContact();
         Assert.assertTrue(app.getHelperAddContact().isAddPageStillDisplayed());
         Assert.assertTrue(app.getHelperUser().isAlertPresent(" Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));

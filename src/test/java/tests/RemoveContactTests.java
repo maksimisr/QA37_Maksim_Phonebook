@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class RemoveContactTests extends TestBase {
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition() {
 
         if (!app.getHelperUser().isLogged()) {
@@ -16,7 +16,7 @@ public class RemoveContactTests extends TestBase {
         }
 
     }
-    @Test
+    @Test(groups = {"smoke"})
 public void RemoveContactFromList(){
 
         Assert.assertEquals(app.getHelperAddContact().removeOneContact(),1);

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.util.Random;
 
 public class RegistrationTests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         //if sign out present -> logout
         if(app.getHelperUser().isLogged()){
@@ -42,7 +42,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format"));
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationWrongPaswordFormat(){
         Random random= new Random();
         int i =random.nextInt(1000);

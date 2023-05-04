@@ -1,13 +1,20 @@
 package tests;
 
+import manager.DataProviderContact;
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class LoginTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         //if sign out present -> logout
         if(app.getHelperUser().isLogged()){
@@ -15,32 +22,33 @@ public class LoginTests extends TestBase{
             logger.info("before method finish logout");
         }
     }
-    @Test
-    public void loginSuccess(){
+    @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(User user) {
         logger.info("Start test with name 'loginSuccess' ");
-        logger.info("TEst data--->  email: 'maks-skam@mail.ru' & password: 'Maksim1996$' ");
-        User user = new User().setEmail("maks-skam@mail.ru").setPassword("Maksim1996$");
+        logger.info("TEst data---> " +user.toString());
+       // User user = new User().setEmail("maks-skam@mail.ru").setPassword("Maksim1996$");
        app.getHelperUser().openLoginRegistrationForm();
        app.getHelperUser().fillLoginRegistrationForm(user);
        app.getHelperUser().submitLogin();
 
        Assert.assertTrue(app.getHelperUser().isLogged());
        logger.info("Assert check is element button 'Sign out' present");
+
     }
 
 
-    @Test
-    public void loginSuccessModel(){
+    @Test(dataProvider = "loginFile",dataProviderClass = DataProviderContact.class)
+    public void loginSuccessModel(User user){
         logger.info("Start test with name 'loginSuccessModel' ");
         logger.info("TEst data--->  email: 'maks-skam@mail.ru' & password: 'Maksim1996$' ");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("maks-skam@mail.ru","Maksim1996$");
+        app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
 
         Assert.assertTrue(app.getHelperUser().isLogged());
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail(){
         logger.info("Start test with name 'loginWrongEmail' ");
         logger.info("TEst data--->  email: 'maskam@mail.ru' & password: 'Maksim1996$' ");

@@ -1,0 +1,283 @@
+19:19:15.650  INFO  manager.ApplicationManager - All tests run in Chrome driver
+19:19:18.312  INFO  manager.ApplicationManager - The link ---> https://telranedu.web.app/login
+19:19:20.334  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:19:25.391  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Sign Out']
+19:19:25.391  INFO  manager.ListenerWD - List of elements--->0
+19:19:25.391  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[text()='LOGIN']
+19:19:25.422  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[text()='LOGIN']
+19:19:25.437  INFO  manager.ListenerWD - Location of element (1425, 33)
+19:19:25.487  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@name='email']
+19:19:25.512  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@name='email']
+19:19:25.522  INFO  manager.ListenerWD - Location of element (568, 250)
+19:19:25.689  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[last()]
+19:19:25.709  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[last()]
+19:19:25.716  INFO  manager.ListenerWD - Location of element (568, 320)
+19:19:25.854  INFO  manager.ListenerWD - before Find Element----> By.xpath: //button[text()='Login']
+19:19:25.873  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Login']
+19:19:25.883  INFO  manager.ListenerWD - Location of element (568, 390)
+19:19:25.926  INFO  tests.TestBase - Name of method -->addNewContactWrongAddress
+19:19:25.929  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:19:27.073  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@href='/add']
+19:19:27.083  INFO  manager.ListenerWD - Location of element (1191, 34)
+19:19:27.129  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Name']
+19:19:27.152  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Name']
+19:19:27.163  INFO  manager.ListenerWD - Location of element (240, 165)
+19:19:27.298  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:19:27.317  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:19:27.326  INFO  manager.ListenerWD - Location of element (240, 238)
+19:19:27.483  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Phone']
+19:19:27.500  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Phone']
+19:19:27.510  INFO  manager.ListenerWD - Location of element (240, 312)
+19:19:27.654  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='email']
+19:19:27.671  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='email']
+19:19:27.680  INFO  manager.ListenerWD - Location of element (240, 385)
+19:19:27.840  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Address']
+19:19:27.857  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Address']
+19:19:27.863  INFO  manager.ListenerWD - Location of element (240, 459)
+19:19:27.964  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='description']
+19:19:27.989  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='description']
+19:19:27.997  INFO  manager.ListenerWD - Location of element (240, 533)
+19:19:43.145  INFO  manager.ListenerWD - before Find Element----> By.xpath: //b[.='Save']
+19:19:43.160  INFO  manager.ListenerWD - After Find Element----> By.xpath: //b[.='Save']
+19:19:43.160  INFO  manager.ListenerWD - Location of element (751, 620)
+19:19:43.217  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@style='border: 1px solid black; background-color: black; color: white;']
+19:19:43.239  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@style='border: 1px solid black; background-color: black; color: white;']
+19:19:43.247  INFO  manager.ListenerWD - Location of element (1189, 33)
+19:19:43.268  INFO  tests.TestBase - Name of method -->addNewContactWrongLastName
+19:19:43.268  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:19:43.268  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@href='/add']
+19:19:43.283  INFO  manager.ListenerWD - Location of element (1189, 33)
+19:19:43.330  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Name']
+19:19:43.348  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Name']
+19:19:43.356  INFO  manager.ListenerWD - Location of element (240, 165)
+19:19:43.474  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:19:43.494  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:19:43.501  INFO  manager.ListenerWD - Location of element (240, 238)
+19:19:43.603  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Phone']
+19:19:43.629  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Phone']
+19:19:43.637  INFO  manager.ListenerWD - Location of element (240, 312)
+19:19:43.782  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='email']
+19:19:43.794  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='email']
+19:19:43.802  INFO  manager.ListenerWD - Location of element (240, 385)
+19:19:43.959  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Address']
+19:19:43.971  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Address']
+19:19:43.978  INFO  manager.ListenerWD - Location of element (240, 459)
+19:19:44.072  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='description']
+19:19:44.085  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='description']
+19:19:44.092  INFO  manager.ListenerWD - Location of element (240, 533)
+19:19:59.218  INFO  manager.ListenerWD - before Find Element----> By.xpath: //b[.='Save']
+19:19:59.233  INFO  manager.ListenerWD - After Find Element----> By.xpath: //b[.='Save']
+19:19:59.233  INFO  manager.ListenerWD - Location of element (751, 620)
+19:19:59.263  INFO  tests.TestBase - Name of method -->addNewContactWrongName
+19:19:59.263  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:19:59.284  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@href='/add']
+19:19:59.291  INFO  manager.ListenerWD - Location of element (1189, 33)
+19:19:59.331  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Name']
+19:19:59.348  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Name']
+19:19:59.356  INFO  manager.ListenerWD - Location of element (240, 165)
+19:19:59.469  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:19:59.480  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:19:59.487  INFO  manager.ListenerWD - Location of element (240, 238)
+19:19:59.590  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Phone']
+19:19:59.607  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Phone']
+19:19:59.614  INFO  manager.ListenerWD - Location of element (240, 312)
+19:19:59.760  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='email']
+19:19:59.772  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='email']
+19:19:59.779  INFO  manager.ListenerWD - Location of element (240, 385)
+19:19:59.931  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Address']
+19:19:59.943  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Address']
+19:19:59.950  INFO  manager.ListenerWD - Location of element (240, 459)
+19:20:00.061  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='description']
+19:20:00.074  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='description']
+19:20:00.081  INFO  manager.ListenerWD - Location of element (240, 533)
+19:20:15.203  INFO  manager.ListenerWD - before Find Element----> By.xpath: //b[.='Save']
+19:20:15.203  INFO  manager.ListenerWD - After Find Element----> By.xpath: //b[.='Save']
+19:20:15.224  INFO  manager.ListenerWD - Location of element (751, 620)
+19:20:15.245  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@style='border: 1px solid black; background-color: black; color: white;']
+19:20:15.260  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@style='border: 1px solid black; background-color: black; color: white;']
+19:20:15.260  INFO  manager.ListenerWD - Location of element (1189, 33)
+19:20:15.284  INFO  tests.TestBase - Name of method -->additionSuccessAllFields
+19:20:15.284  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:20:15.296  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@href='/add']
+19:20:15.304  INFO  manager.ListenerWD - Location of element (1189, 33)
+19:20:15.339  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Name']
+19:20:15.354  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Name']
+19:20:15.361  INFO  manager.ListenerWD - Location of element (240, 165)
+19:23:04.109  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:04.109  INFO  manager.ListenerWD - Object target-->[[ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)] -> xpath: //input[@placeholder='Name']]
+19:23:04.110  INFO  manager.ListenerWD - ********
+19:23:04.110  INFO  manager.ListenerWD - sendKeys
+19:23:04.110  INFO  manager.ListenerWD - ********
+19:23:04.110  INFO  manager.ListenerWD - ********
+19:23:04.110  INFO  manager.ListenerWD - ********
+19:23:04.111  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, sendKeysToElement {id=513cad4e-de89-4542-953f-e202c709c390, value=[Ljava.lang.CharSequence;@5db6b845}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)] -> xpath: //input[@placeholder='Name']]
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:04.111  INFO  manager.ListenerWD - ********
+19:23:04.112  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1756.png
+19:23:04.116  INFO  tests.TestBase - Name of method -->additionSuccessAllFields
+19:23:04.117  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:23:08.214  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:08.215  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:08.215  INFO  manager.ListenerWD - ********
+19:23:08.215  INFO  manager.ListenerWD - findElement
+19:23:08.215  INFO  manager.ListenerWD - ********
+19:23:08.215  INFO  manager.ListenerWD - ********
+19:23:08.215  INFO  manager.ListenerWD - ********
+19:23:08.215  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:08.216  INFO  manager.ListenerWD - ********
+19:23:08.216  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1293.png
+19:23:12.329  INFO  tests.TestBase - Name of method -->additionSuccessAllFields
+19:23:12.329  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:23:16.389  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:16.390  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:16.390  INFO  manager.ListenerWD - ********
+19:23:16.390  INFO  manager.ListenerWD - findElement
+19:23:16.390  INFO  manager.ListenerWD - ********
+19:23:16.390  INFO  manager.ListenerWD - ********
+19:23:16.390  INFO  manager.ListenerWD - ********
+19:23:16.390  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:16.391  INFO  manager.ListenerWD - ********
+19:23:16.391  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1182.png
+19:23:20.460  INFO  tests.TestBase - Name of method -->additionSuccessAllFields
+19:23:20.461  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:23:24.608  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:24.608  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:24.608  INFO  manager.ListenerWD - ********
+19:23:24.608  INFO  manager.ListenerWD - findElement
+19:23:24.608  INFO  manager.ListenerWD - ********
+19:23:24.608  INFO  manager.ListenerWD - ********
+19:23:24.608  INFO  manager.ListenerWD - ********
+19:23:24.609  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:24.609  INFO  manager.ListenerWD - ********
+19:23:24.609  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1526.png
+19:23:28.697  INFO  tests.TestBase - Name of method -->additionWrongEmail
+19:23:28.698  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:23:32.762  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:32.762  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:32.762  INFO  manager.ListenerWD - ********
+19:23:32.762  INFO  manager.ListenerWD - findElement
+19:23:32.762  INFO  manager.ListenerWD - ********
+19:23:32.762  INFO  manager.ListenerWD - ********
+19:23:32.763  INFO  manager.ListenerWD - ********
+19:23:32.763  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:32.763  INFO  manager.ListenerWD - ********
+19:23:32.763  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1619.png
+19:23:36.840  INFO  tests.TestBase - Name of method -->additionWrongPhone
+19:23:36.841  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:23:40.932  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:40.933  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:40.933  INFO  manager.ListenerWD - ********
+19:23:40.933  INFO  manager.ListenerWD - findElement
+19:23:40.933  INFO  manager.ListenerWD - ********
+19:23:40.933  INFO  manager.ListenerWD - ********
+19:23:40.933  INFO  manager.ListenerWD - ********
+19:23:40.933  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:40.933  INFO  manager.ListenerWD - ********
+19:23:40.933  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1923.png
+19:23:44.995  INFO  tests.TestBase - Name of method -->successRequiredFields
+19:23:44.996  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:23:49.056  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:49.057  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:49.057  INFO  manager.ListenerWD - ********
+19:23:49.057  INFO  manager.ListenerWD - findElement
+19:23:49.057  INFO  manager.ListenerWD - ********
+19:23:49.057  INFO  manager.ListenerWD - ********
+19:23:49.057  INFO  manager.ListenerWD - ********
+19:23:49.057  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:49.057  INFO  manager.ListenerWD - ********
+19:23:49.057  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1584.png
+19:23:53.148  INFO  tests.TestBase - Name of method -->loginSuccess
+19:23:55.149  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:23:59.246  INFO  manager.ListenerWD - Huston, we have a problem!
+19:23:59.247  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:23:59.247  INFO  manager.ListenerWD - ********
+19:23:59.247  INFO  manager.ListenerWD - findElements
+19:23:59.247  INFO  manager.ListenerWD - ********
+19:23:59.247  INFO  manager.ListenerWD - ********
+19:23:59.247  INFO  manager.ListenerWD - ********
+19:23:59.247  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:23:59.247  INFO  manager.ListenerWD - ********
+19:23:59.247  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1348.png
+19:24:03.367  INFO  tests.TestBase - Name of method -->registrationSuccess
+19:24:05.370  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:24:09.481  INFO  manager.ListenerWD - Huston, we have a problem!
+19:24:09.482  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:24:09.482  INFO  manager.ListenerWD - ********
+19:24:09.482  INFO  manager.ListenerWD - findElements
+19:24:09.482  INFO  manager.ListenerWD - ********
+19:24:09.482  INFO  manager.ListenerWD - ********
+19:24:09.482  INFO  manager.ListenerWD - ********
+19:24:09.482  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:24:09.482  INFO  manager.ListenerWD - ********
+19:24:09.482  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1743.png
+19:24:15.602  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:24:19.672  INFO  manager.ListenerWD - Huston, we have a problem!
+19:24:19.672  INFO  manager.ListenerWD - Object target-->ChromeDriver: chrome on WINDOWS (750af9665e9cec4132cdd19349e3308a)
+19:24:19.672  INFO  manager.ListenerWD - ********
+19:24:19.672  INFO  manager.ListenerWD - findElements
+19:24:19.672  INFO  manager.ListenerWD - ********
+19:24:19.672  INFO  manager.ListenerWD - ********
+19:24:19.672  INFO  manager.ListenerWD - ********
+19:24:19.673  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750af9665e9cec4132cdd19349e3308a, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\maksi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62629/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750af9665e9cec4132cdd19349e3308a
+19:24:19.673  INFO  manager.ListenerWD - ********
+19:24:19.673  INFO  manager.ListenerWD - screen with error is ---> src/test/screenshots/screen_1813.png

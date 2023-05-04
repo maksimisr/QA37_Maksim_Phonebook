@@ -1,0 +1,2 @@
+18:36:34.310  INFO  tests.TestBase - Start test with name 'loginWrongEmail' 
+18:36:34.316  INFO  tests.TestBase - TEst data--->  email: 'maskam@mail.ru' & password: 'Maksim1996$' 

@@ -1,0 +1,48 @@
+19:07:35.607  INFO  manager.ApplicationManager - All tests run in Chrome driver
+19:07:38.283  INFO  manager.ApplicationManager - The link ---> https://telranedu.web.app/login
+19:07:40.316  INFO  manager.ListenerWD - Before Find Element----> By.xpath: //button[text()='Sign Out']
+19:07:45.365  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Sign Out']
+19:07:45.365  INFO  manager.ListenerWD - List of elements--->0
+19:07:45.365  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[text()='LOGIN']
+19:07:45.391  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[text()='LOGIN']
+19:07:45.407  INFO  manager.ListenerWD - Location of element (1425, 33)
+19:07:45.460  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@name='email']
+19:07:45.496  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@name='email']
+19:07:45.506  INFO  manager.ListenerWD - Location of element (568, 250)
+19:07:45.708  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[last()]
+19:07:45.732  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[last()]
+19:07:45.743  INFO  manager.ListenerWD - Location of element (568, 320)
+19:07:45.921  INFO  manager.ListenerWD - before Find Element----> By.xpath: //button[text()='Login']
+19:07:45.944  INFO  manager.ListenerWD - After Find Element----> By.xpath: //button[text()='Login']
+19:07:45.955  INFO  manager.ListenerWD - Location of element (568, 390)
+19:07:46.013  INFO  tests.TestBase - Name of method -->successRequiredFields
+19:07:46.017  INFO  manager.ListenerWD - before Find Element----> By.xpath: //a[@href='/add']
+19:07:47.097  INFO  manager.ListenerWD - After Find Element----> By.xpath: //a[@href='/add']
+19:07:47.107  INFO  manager.ListenerWD - Location of element (1191, 34)
+19:07:47.157  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Name']
+19:07:47.235  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Name']
+19:07:47.251  INFO  manager.ListenerWD - Location of element (240, 165)
+19:07:47.481  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:07:47.504  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Last Name']
+19:07:47.514  INFO  manager.ListenerWD - Location of element (240, 238)
+19:07:47.707  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Phone']
+19:07:47.733  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Phone']
+19:07:47.743  INFO  manager.ListenerWD - Location of element (240, 312)
+19:07:47.937  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='email']
+19:07:47.958  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='email']
+19:07:47.969  INFO  manager.ListenerWD - Location of element (240, 385)
+19:07:48.172  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='Address']
+19:07:48.194  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='Address']
+19:07:48.205  INFO  manager.ListenerWD - Location of element (240, 459)
+19:07:48.356  INFO  manager.ListenerWD - before Find Element----> By.xpath: //input[@placeholder='description']
+19:07:48.379  INFO  manager.ListenerWD - After Find Element----> By.xpath: //input[@placeholder='description']
+19:07:48.389  INFO  manager.ListenerWD - Location of element (240, 533)
+19:07:48.526  INFO  manager.ListenerWD - before Find Element----> By.xpath: //b[.='Save']
+19:07:48.548  INFO  manager.ListenerWD - After Find Element----> By.xpath: //b[.='Save']
+19:07:48.559  INFO  manager.ListenerWD - Location of element (751, 620)
+19:07:48.592  INFO  manager.ListenerWD - Before Find Element----> By.cssSelector: h2
+19:07:49.292  INFO  manager.ListenerWD - After Find Element----> By.cssSelector: h2
+19:07:49.292  INFO  manager.ListenerWD - List of elements--->10
+19:07:49.336  INFO  manager.ListenerWD - Before Find Element----> By.cssSelector: h3
+19:07:49.410  INFO  manager.ListenerWD - After Find Element----> By.cssSelector: h3
+19:07:49.412  INFO  manager.ListenerWD - List of elements--->10
